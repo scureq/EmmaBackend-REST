@@ -1,0 +1,14 @@
+{
+  "name": "Emma",
+  "version": "0.1.0",
+  "description": "Emma Backend REST",
+  "author": "Steffo <steffo.weber@gmail.com>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express-mongo-rest": "^0.1.2"
+  },
+  "config" : { "port" : "4001" }
+}
