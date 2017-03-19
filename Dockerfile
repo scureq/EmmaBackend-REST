@@ -4,8 +4,8 @@ FROM node:7.0.0-slim
 # docker build . -t emma
 # Run: docker run -i -v /Users/steffo/CodeWarrior/NodeJS/emma-backend-REST/datadb:/data/db--name emma -t emma /bin/bash
 
-# docker run -i  -v /Users/steffo/CodeWarrior/NodeJS/emma-backend-REST/datadb:/data/db -p 4001:4001  --name emma  emma 
-# Try:  curl -d '{ "A2" : 201 }' -H "Content-Type: application/json" http://localhost:4001/api/v1/test
+# docker run -i  -v /Users/steffo/CodeWarrior/NodeJS/emma-backend-REST/datadb:/data/db -p 4001:4001  --name emma  emma
+# Try:  curl -d '{ "A2" : 201 }' -H "Content-Type: application/json" http://localhost:4001/emma/api/v1/test
 
 RUN apt-get update \
   && apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 \
